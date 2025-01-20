@@ -1,20 +1,21 @@
 # quiz_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A new Flutter App of Quiz
 
 # quizapp
 
 Develop a Flutter-based quiz application with gamification features.
+
+In this app the Start Quiz button is to start the quiz and load the data from an api.
+
+THe Questions file is the screen of Questions where the question is listed one by one and the options with the
+functionality is given in the app to interact with the quiz.
+
+The Scoreboard file is the screen where the score is shown and the correct answers out of total questions is given
+and on the basis of correct answer 4 points is added and if the answer is wrong then -1 point is substract from the total score.
+
+common_vm file is the View Model file to update the ui and maintain the state management of the screens.
+
+In the utils folder there are devices to update status bar and more methods define. Assets, Colors, and Routes are defined in the utils.
+
+Services folder is user to handle the get calls, post calls, and payload for the apis.
